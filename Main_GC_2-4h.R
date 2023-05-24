@@ -1,5 +1,6 @@
 # Get the right rows spanning 2-4 hours
-d2to4 <- d[4:8,]
+# Change row numbers depending on time intervals
+d2to4 <- d[8:16,]
 gc_out2to4 <- SummarizeGrowthByPlate(d2to4)
 pca_gc_out2to4 <- as_data_frame(gc_out2to4)
 
