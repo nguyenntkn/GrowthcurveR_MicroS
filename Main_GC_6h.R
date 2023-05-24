@@ -1,4 +1,5 @@
 # Get the right rows spanning 6 hours
+# Change row numbers depending on time intervals
 d6 <- d[1:24,]
 gc_out6 <- SummarizeGrowthByPlate(d6)
 pca_gc_out6 <- as_data_frame(gc_out6)
