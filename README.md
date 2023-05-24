@@ -1,1 +1,0 @@
-# GrowthcurveR_Microsintesis
